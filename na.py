@@ -18,4 +18,9 @@ print('total', len(new),'less than 100') #when finished for loop, start print
 print(new[0])
 
 
-
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('total',len(new), 'mention good')
+print(good[0])
